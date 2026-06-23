@@ -1,3 +1,3 @@
-public class Pesquisavel {
-    
+public interface Pesquisavel {
+    boolean pesquisar(String texto);
 }
