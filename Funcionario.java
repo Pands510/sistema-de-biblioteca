@@ -1,3 +1,8 @@
+//Responsabbilidades:
+    //É apenas um funcionário
+        //Não administra o sistema
+    //Não cadastra livros
+
 public class Funcionario extends Pessoa{
     private String email;
     private String id;

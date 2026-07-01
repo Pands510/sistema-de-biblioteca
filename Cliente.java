@@ -1,3 +1,9 @@
+//Responsabilidade:
+    //Apenas pega livros emprestados
+    //Não cadastra livros
+    //Não lista livros
+    //Não busca livros
+
 public class Cliente extends Pessoa implements Pesquisavel{
 
     public Cliente(String nome, String cpf, String tel) {
@@ -5,7 +11,7 @@ public class Cliente extends Pessoa implements Pesquisavel{
     }
 
     @Override
-    public boolean pesquisa(String texto) {
+    public boolean pesquisar(String texto) {
         
     }
     

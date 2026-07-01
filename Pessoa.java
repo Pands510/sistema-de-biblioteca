@@ -1,3 +1,9 @@
+//Responsabilidades:
+    //Representar qualquer pessoa da biblioteca
+    //Não sabe cadastrar livros
+    //Não sabe emprestar
+    //Apenas guarda informações pessoais
+
 public abstract class Pessoa {
     private String nome;
     private String cpf;

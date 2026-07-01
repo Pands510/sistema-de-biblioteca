@@ -1,3 +1,12 @@
+//Responsabilidades:
+    //Não pode emprestar livros
+        //Representa o empréstimo já realizado
+    //Armazena:
+        //Quem alugou
+        //Qual livro
+        //Quando pegou
+        //Quando devolveu
+
 import java.time.LocalDate;
 
 public class Emprestimo {
@@ -45,5 +54,11 @@ public class Emprestimo {
         this.dataDevolucao = dataDevolucao;
     }
 
-    
+    public boolean estaDisponivel(){
+
+    }
+
+    public boolean foiDevolvido(){
+        
+    }
 }

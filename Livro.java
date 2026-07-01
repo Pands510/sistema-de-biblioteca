@@ -1,3 +1,12 @@
+//Responsabilidades:
+    //Pode estar disponível
+    //Pode ser emprestado
+    
+    //Pode ser devolvido
+    //Sabe seu título
+    //Sabe seu autor
+    //Sabe seu ISBN
+
 public class Livro implements Pesquisavel {
     private String titulo;
     private String autor;
@@ -60,11 +69,6 @@ public class Livro implements Pesquisavel {
     }
 
     public void devolver(){
-
-    }
-
-    @Override
-    public String toString() {
 
     }
 

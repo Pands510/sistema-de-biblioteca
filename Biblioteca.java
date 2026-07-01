@@ -1,3 +1,12 @@
+//Responsabilidades:
+    //Cadastra livros
+    //Remove livros
+    //Busca livros
+    //Cria emprestimos
+    //Devolve livros
+    //Cadastra cclientes
+    //Lista clientes
+
 import java.util.ArrayList;
 
 public class Biblioteca {
